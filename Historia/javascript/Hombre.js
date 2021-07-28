@@ -308,10 +308,7 @@ function MON3(){
 }
 
 
-function parte3(){
-    document.getElementById("texto4").style.display="block";
-    document.getElementById("texto3").style.display="none";
-}
+//Musica
 window.addEventListener("load",function(){
 	document.getElementById("play").addEventListener("click",sonarPajaros);
 	document.getElementById("stop").addEventListener("click",callarPajaros);			
