@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <button window.onkeydown = p1; onclick="Idioma();">Idioma</button>
+<p id=es>Perro</p>
+
+<p id="en">Dog</p>
+<style>
+  #en{
+    display: none;
+}
+</style>
+<script>
+function p1() {
+
+tecla_esc = event.keyCode;
+
+if (tecla_esc == 32) {
+
+return Idioma();
+    
+}
+
+if (tecla_esc == 13) {
+
+return Idioma();
+    
+}
+
+}
+window.onkeydown = p1;
+function Idioma(){
+  document.getElementById("en").style.display="block";
+  document.getElementById("es").style.display="none";
+}
+
+</script>
+</body>
+</html>

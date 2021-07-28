@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mujer</title>
+    <link rel="stylesheet" type="text/css" href="/Historia/css/Mujer.css">
+    <link rel="stylesheet" type="text/css" href="/Historia/css/eMujer.css">
+
+</head>
+<body>
+    <!-- imagenes -->
+    <div class="Imagenes">
+
+        <img class="fondo1" src="/Imagenes/Fondo2.jpg" width="1350" height="525">
+
+        <img class="fondo2" src="/Imagenes/Fondo de piko.jpg" width="1350" height="530">
+        <img class="fondo2" src="/Imagenes/isekai.png" width="1350" height="530">
+        <img class="fondo2" src="/Imagenes/FondoDio.jpg" width="1350" height="530"target="_top">
+        <img class="fondo2" src="/Imagenes/School.jpg" width="1350" height="530">
+        <img class="fondo2" src="/Imagenes/Fondo4.jpg" width="1350" height="530">
+        <img class="fondo2" src="/Imagenes/GameOver.jpg" width="1350" height="530"><!-- 5 -->
+        <img class="fondo2" src="/Imagenes/Noche.jpg" width="1350" height="530">
+        <img class="fondo2" src="/Imagenes/game+over.jpg" width="1350" height="530">
+        <img class="fondo2" src="/Imagenes/FondoIkari.jpg" width="1350" height="530">
+        <img class="fondo2" src="/Imagenes/Eva.jpg" width="1350" height="530">
+        <img class="fondo2" src="/Imagenes/Chica.jpg" width="1350" height="530"><!-- 10 -->
+        <img class="fondo2" src="/Imagenes/Bar.png" width="1350" height="530">
+        <img class="fondo2" src="/Imagenes/Amongus.jpg" width="1350" height="530">
+        <img class="fondo2" src="/Imagenes/Agua.jpg" width="1350" height="530">
+
+        <img class="image2" src="/Imagenes/Ban.png" height="430">
+        <img  class="image2" src="/Imagenes/Dio.png"height="430" >
+        <img  class="image2" src="/Imagenes/Kirito.png"height="430" >
+        <img  class="image2" src="/Imagenes/Gendono.png"height="440" >
+        <img  class="image2" src="/Imagenes/Kaneki.png"height="430" >
+        <img  class="image2" src="/Imagenes/KonoDio.png"height="440"target="_top" ><!-- 5 -->
+        <img  class="image2" src="/Imagenes/Kiriyo.png"height="470" >  
+        <img  class="image2" src="/Imagenes/Kaneki1.png"height="460" >
+        <img  class="image2" src="/Imagenes/Kaneyi2.png"height="460" >
+        <img  class="image2" src="/Imagenes/Boo.png"height="490" >
+      
+      </div>
+    <!-- guion -->
+    <p id="texto">
+        ¿Deseas ir al mundo 2D? <br> Que dices <br>
+
+        <button type="button"onclick="Final()">SI</button>
+        
+        <button type="button"onclick="FinalMalo()">No</button>
+
+        <button onclick="window.location.href='Main.html'">Regresar</button>
+
+        <button type="button"onclick="Config()">Configuración</button>
+    </p>
+   
+    <p id="configuracion">
+     Musica------------------------------------Modo de pantalla -- Idioma------------------------------------------
+    <br>
+    <span id="play">Reproducir</span>
+    <span id="stop">Parar</span>
+    <button onclick="openFullscreen();">Pantalla Completa</button>
+        <button onclick="closeFullscreen();">Modo Ventana</button>
+        <button type="button" onclick="ingles()">Ingles</button>
+    <button type="button" onclick="Music()">Continuar</button>
+    
+    </p>
+<!-- Final Malo -->
+    <p id="malo1">
+        Ves una persona a lo lejos y cruzas la calle pero se acerca un camión,
+         parpadeas y ya no esta, y atras hay una persona.<br> 
+        <button type="button" onclick="Dio()">Continuar</button>
+    </p>
+
+    <p id="malo2">
+        Creistes que no fuistes al mundo 2D, pero yo te traje, Yo DIO.<br> 
+        <button type="button" onclick="Dio2()">Continuar</button>
+    </p>
+
+    <p id="malo3">
+        Pierdes sangre ya que no vistes que te estaba absorviendo sangre.Y no puedes ver bien...<br> 
+        <button type="button" onclick="Dio3()">Regresar</button>
+    </p>
+
+<!-- EL final del final malo     -->
+
+<!-- Husbandos -->
+    <p id="texto2">
+        Al aceptar ves que desciende un unicornio, te subes y estas en el mundo 2D,
+         pero no sabes donde ir.<br> <button type="button" onclick="parte2()">Continuar</button>
+         
+    </p>
+    <p id="texto3">
+        ¿A donde irias? <br> <button type="button"onclick="Game()">Sala de juegos</button>
+         <button type="button"onclick="Calle()">Callejón oscuro</button>
+         <button type="button"onclick="Laboratorio()">Laboratorio</button>
+         <button type="button"onclick="Bar()">Bar</button>
+
+    </p>
+    <!-- Kirito -->
+    <p id="kir1">
+        Estas en un mundo avanzado asi que vas que hay de novedad,
+        ves que hay vr cerebral(no suena bien,<br> pero por algo esta aqui en publico)
+        <button type="button" onclick="KIR1()">Continuar</button>
+    </p>
+
+    <p id="kir2">
+        Juegas y conoces un chico que estaba jugando en linea, 
+        lo agregas y lo invita para otras partidas.
+       <br> <button type="button" onclick="KIR2()">Continuar</button>
+    </p>
+
+    <p id="kir3">
+        Pero en el momento que quieres desconectarte
+        no puedes y mueres por falta de atención de los empleados. <br>
+        <button type="button" onclick="KIR3()">Regresar</button>
+    </p>
+    <!-- Kaneki -->
+
+    <p id="kan1">
+        A veces los lugares sospechosos puede ser lo contrario. 
+       <br> <button type="button" onclick="KAN1()">Continuar</button>
+    </p>
+    <p id="kan2">
+        Te encuentras a un chico de pelo blanco algo peculiar.
+       <br> <button type="button" onclick="KAN2()">Continuar</button>
+       
+    </p>
+
+    <p id="kan3">
+        De repente ves que el muchacho esta lastimado sin razón alguna,
+         y alguien con tentaculos en la espalda arriba de una azotea avienta una lanza.
+       <br> <button type="button" onclick="KAN3()">Continuar</button>
+    </p>
+
+    <p id="kan4">
+        el chico te intenta proteger pero la gran velocidad a que iba, te atraviesa a ti...<br>
+        <button type="button" onclick="KAN4()">Regresar</button>
+    </p>
+
+  
+
+
+
+
+    <!-- <p id="texto4">
+        A <br> <button type="button" onclick="parte4()">Continuar</button>
+    </p> -->
+    
+  <!-- Gendo -->
+    <p id="gen1">
+        Entras y te encuentras que al parecer es el dueño del laboratorio, 
+        te dice que conduzcas un "Eva"
+       <br> <button type="button" onclick="GEN1()">Continuar</button>
+    </p>
+
+    <p id="gen2">
+        ¿Lo conduces?
+       <br> <button type="button" onclick=" GEN2()">Si</button>
+       <br> <button type="button" onclick="GEN3()">No</button>
+    </p>
+
+    <p id="gen4">
+        Te da una crisis existencial y culpabilidad por el rechazo, asi que aceptas.
+        <br> <button type="button" onclick="GEN4()">Continuar</button>
+    </p>
+
+    <p id="gen5">
+        Al ser tu primera vez y sin entranamiento mueres en la pelea con un "Angel"<br>
+        <br>  <button type="button" onclick="GEN5()">Regresar</button>
+    </p>
+<!-- Ban -->
+    <p id="ban1">
+        De camino te encuantras dinero, y ahora ya no dudas en entrar.
+        <br> <button type="button" onclick="BAN1()">Continuar</button>
+    </p>
+
+    <p id="ban2">
+        Pides algo de comida y un joven se acerca a ti.
+        ¿Que haces?
+       <br> <button type="button" onclick=" BAN2()">Irte</button>
+       <br> <button type="button" onclick="BAN3()">No hacer nada</button>
+    </p>
+
+    <p id="ban4">
+        El chico se fue, pagas pero el dinero que tenias ya no lo tienes, y el dueño te amenaza.<br>
+         <button type="button" onclick="BAN4()">Continuar</button>
+    </p>
+
+
+    <p id="ban5">
+        Unos asesinos te ven y ellos mismos te matan cuando nadie te ve.
+        <br><button type="button" onclick="BAN5()">Regresar</button>
+    </p>
+
+
+    <p id="ban6">
+        Al no poder pagarle, sus ayudantes te terminan lanzandote a un rio cercano.<br>
+        <button type="button" onclick="BAN6()">Regresar</button>
+    </p>
+
+
+
+
+
+
+<div lang="en">
+    <!-- guion en ingles -->
+    <p id="etexto">
+        Do you want to go to the 2D world? <br> What are you saying?
+        <br>
+
+        <button type="button"onclick="eFinal()">Yes</button>
+        
+        <button type="button"onclick="eFinalMalo()">No</button>
+
+        <button onclick="window.location.href='Main.html'">Come back</button>
+
+        <button type="button"onclick="eConfig()">Settings</button>
+    </p>
+   
+    <p id="econfiguracion">
+        Music---------------------Display mode -----Language---------------------------------------------------------
+        <br>
+    <span id="eplay">Play</span>
+    <span id="estop">Stop</span>
+    <button onclick="eopenFullscreen();">Fullscreen</button>
+    <button onclick="ecloseFullscreen();">Window mode</button>
+    <button type="button" onclick="español()">Spanish</button>
+    <button type="button" onclick="eMusic()">Continue</button>
+    
+    </p>
+<!-- Final Malo -->
+    <p id="emalo1">
+        You see a person in the distance and you cross the street but a truck is approaching,
+        You blink and it is gone, and behind there is a person.<br> 
+        <button type="button" onclick="eDio()">Continue</button>
+    </p>
+
+    <p id="emalo2">
+        You thought you didn't go to the 2D world, but I brought you, I DIO.<br> 
+        <button type="button" onclick="eDio2()">Continue</button>
+    </p>
+
+    <p id="emalo3">
+        PYou lose blood since you did not see that I was absorbing blood,
+         and you cannot see well ...<br> 
+        <button type="button" onclick="eDio3()">Come back </button>
+    </p>
+
+<!-- EL final del final malo     -->
+
+<!-- Husbandos -->
+    <p id="etexto2">
+        When you accept you see that a unicorn descends, you go up and you are in the 2D world,
+        but you don't know where to go.<br> <button type="button" onclick="eparte2()">Continue</button>
+         
+    </p>
+    <p id="etexto3">
+        Where would you go? <br> <button type = "button" onclick = "eGame ()"> Game room </button>
+        <button type = "button" onclick = "eCalle ()"> Dark alley </button>
+        <button type = "button" onclick = "eLaboratorio ()"> Laboratory </button>
+        <button type = "button" onclick = "eBar ()"> Bar </button>
+
+    </p>
+    <!-- Kirito -->
+    <p id="ekir1">
+        You are in an advanced world so you go what's new,
+        You see that there is cerebral vr (it does not sound good, but for something it is here in public)
+        <br><button type = "button" onclick = "eKIR1 ()"> Continue </button>
+    </p>
+
+    <p id = "ekir2">
+        You play and you know a boy who was playing online,
+        you add it and invite it for other games.
+       <br> <button type = "button" onclick = "eKIR2 ()"> Continue </button>
+    </p>
+
+    <p id = "ekir3">
+        But the moment you want to disconnect
+        you can't and you die for lack of attention from employees. <br>
+        <button type = "button" onclick = "eKIR3 ()"> Come back</button>
+    </p>
+    <!-- Kaneki -->
+
+    <p id = "ekan1">
+        Sometimes suspicious places can be the opposite.
+       <br> <button type = "button" onclick = "eKAN1 ()"> Continue </button>
+    </p>
+    <p id = "ekan2">
+        You meet a somewhat peculiar white haired boy.
+       <br> <button type = "button" onclick = "eKAN2 ()"> Continue </button>
+       
+    </p>
+
+    <p id = "ekan3">
+        Suddenly you see that the boy is hurt for no reason,
+         and someone with tentacles on his back on top of a roof throws a spear.
+       <br> <button type = "button" onclick = "eKAN3 ()"> Continue </button>
+    </p>
+
+    <p id = "ekan4">
+        the boy tries to protect you but the great speed at which he was going, cuts through you ... <br>
+        <button type = "button" onclick = "eKAN4 ()"> Come back </button>
+    </p>
+  
+
+
+
+
+    <!-- <p id="texto4">
+        A <br> <button type="button" onclick="parte4()">Continuar</button>
+    </p> -->
+    
+  <!-- Gendo -->
+  <p id = "egen1">
+    You enter and find that apparently he is the owner of the laboratory,
+    tells you to drive an "Eva"
+   <br> <button type = "button" onclick = "eGEN1 ()"> Continue </button>
+</p>
+
+<p id = "egen2">
+    Do you drive it?
+   <br> <button type = "button" onclick = "eGEN2 ()"> Yes </button>
+   <br> <button type = "button" onclick = "eGEN3 ()"> No </button>
+</p>
+
+<p id = "egen4">
+    It gives you an existential crisis and guilt for the rejection, so you accept.
+    <br> <button type = "button" onclick = "eGEN4 ()"> Continue </button>
+</p>
+
+<p id = "egen5">
+    Being your first time and without training you die in the fight with an "Angel" <br>
+    <br> <button type = "button" onclick = "eGEN5 ()"> Come back  </button>
+</p>
+ <!-- Ban  -->
+    <p id = "eban1">
+        On the way you find money, and now you no longer hesitate to enter.
+        <br> <button type = "button" onclick = "eBAN1 ()"> Continue </button>
+    </p>
+
+    <p id = "eban2">
+        You order some food and a young man approaches you.
+        What do you do?
+       <br> <button type = "button" onclick = "eBAN2 ()"> Go </button>
+       <br> <button type = "button" onclick = "eBAN3 ()"> Do nothing </button>
+    </p>
+
+    <p id = "eban4">
+        The boy left, you pay but the money you had you no longer have,
+         and the owner threatens you. <br>
+         <button type = "button" onclick = "eBAN4 ()"> Continue </button>
+    </p>
+
+
+    <p id = "eban5">
+        Some murderers see you and they kill you themselves when nobody sees you.
+        <br> <button type = "button" onclick = "eBAN5 ()"> Come back  </button>
+    </p>
+
+
+    <p id = "eban6">
+        Unable to pay him, his assistants end up throwing you into a nearby river. <br>
+        <button type = "button" onclick = "eBAN6 ()"> Come back </button>
+    </p>
+
+</div>
+    <script src="/Historia/javascript/Mujer.js"></script>
+    <script src="/Historia/javascript/eMujer.js"></script>
+</body>
+</html>

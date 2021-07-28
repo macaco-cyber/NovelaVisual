@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocky</title>
+</head>
+<body>
+    <img  class="image2" src="/Imagenes/gameover.png" >
+    <style>
+        body {
+  background-image: url("/imagenes/Rocky.jpg" );
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+        }
+        .image2{
+            display: none;
+            position: absolute;
+             top: 37%;
+             left: 550px;
+        }
+     p {
+    border-style: double;
+    border-color: blue;
+    width: 1000px;
+    height: 100px;
+    margin: auto;
+font-size: 30px;
+    background-color: rgb(19, 163, 38);
+}
+button{
+    background-color: rgb(0, 140, 255);
+    font-size: 20px;
+    transition:  1s;
+}
+button:hover{
+    font-size: 30px;
+    background-color: rgb(248, 248, 248);
+}
+#texto2{
+    display:none;
+}
+#texto3{
+    display:none;
+}
+
+    </style>
+ <p id="texto">
+    Has elegido la mejor opción te hicistes millonario por
+     las victorias de sus carreras ya que lo adoptastes.
+     <br> <button type="button" onclick="parte2()">Continuar</button>
+     
+</p>
+<p id="texto2">
+Tiene unas palabras que decir
+<br> <button type="button" onclick="parte3()">Continuar</button>
+</p>
+<p id="texto3">
+    Rocky-- Escuchame, con tan solo existir en la misma epoca que yo.
+    Es por que Terminastes con lo que inicio como yo siendo una piedra, imaginate que tu vales mucho mas...
+    <button type="button" onclick="parte4()">Continuar</button>
+
+</p>
+
+
+
+<script>
+    function parte2(){
+    document.getElementById("texto2").style.display="block";
+    document.getElementById("texto").style.display="none";}
+
+    function parte3(){
+    document.getElementById("texto3").style.display="block";
+    document.getElementById("texto2").style.display="none";}
+
+    function parte4(){
+        let z= document.getElementsByClassName("image2");
+    z[0].style.display="block"
+    document.getElementById("texto3").style.display="none";}
+
+
+</script>
+    
+</body>
+</html>

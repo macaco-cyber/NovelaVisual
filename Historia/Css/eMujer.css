@@ -1,0 +1,85 @@
+/* Textos invisibles */
+#etexto{
+    display:none;
+}
+#etexto2{
+    display:none;
+}
+#etexto3{
+    display:none;
+}
+#etexto4{
+    display:none;
+}
+#emalo1{
+    display:none;
+}
+#emalo2{
+    display:none;
+}
+#emalo3{
+    display:none;
+}
+#ekir1{
+    display: none;
+}
+#ekir2{
+    display: none;
+}
+#ekir3{
+    display: none;
+}
+#ekan1{
+    display: none;
+}
+#ekan2{
+    display: none;
+}
+#ekan3{
+    display: none;
+}
+#ekan4{
+    display: none;
+}
+
+#egen1{
+    display: none;
+}
+#egen2{
+    display: none;
+}
+#egen4{
+    display: none;
+}
+#egen5{
+    display: none;
+}
+
+#eban1{
+    display: none;
+}
+#eban2{
+    display: none;
+}
+#eban4{
+    display: none;
+}
+#eban5{
+    display: none;
+}
+
+#eban6{
+    display: none;
+}
+#econfiguracion{
+    display:none;
+}
+
+#eplay,#estop{
+	display:inline-block;
+	padding:16px;
+	border:1px solid #000;
+	border-radius
+	:5px;
+}
+iframe{display:none;}

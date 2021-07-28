@@ -1,0 +1,202 @@
+body {
+    background-color: rgb(0, 0, 0);
+    }
+
+p{
+    border-style: double;
+    border-color: blue;
+    width: 1000px;
+    height: 100px;
+    margin: auto;
+    font-size: 25px;
+    background-color: rgb(105, 173, 185);
+    color: aliceblue;
+}
+
+/* Textos invisibles */
+
+/* #texto{
+    display:none;
+} */
+#texto2{
+    display:none;
+}
+#texto3{
+    display:none;
+}
+#texto4{
+    display:none;
+}
+#malo1{
+    display:none;
+}
+#malo2{
+    display:none;
+}
+#rem1{
+    display: none;
+}
+#rem2{
+    display: none;
+}
+#rem3{
+    display: none;
+}
+#rap1{
+    display: none;
+}
+#rap2{
+    display: none;
+}
+#rap4{
+    display: none;
+}
+#rap5{
+    display: none;
+}
+#rap6{
+    display: none;
+}
+#aqua1{
+    display: none;
+}
+#aqua2{
+    display: none;
+}
+#aqua4{
+    display: none;
+}
+#aqua5{
+    display: none;
+}
+#rap6{
+    display: none;
+}
+#mon1{
+    display: none;
+}
+
+#mon2{
+    display: none;
+}
+
+
+button{
+    background-color: rgb(0, 140, 255);
+    font-size: 20px;
+    transition:  1s;
+}
+button:hover{
+    font-size: 30px;
+    background-color: rgb(248, 248, 248);
+}
+
+.parte1 {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+/* Imagenes */
+  .fondo1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    opacity: 1.0;
+   filter: alpha(opacity=100);
+  }
+  .image2 {
+    position: absolute;
+    top: 100px;
+    left: 430px;
+    z-index: -1;
+    display: none;
+  }
+  .fondo2{
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    display: none;
+  }
+
+  .fondo3{
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    display: none;
+  }
+
+  .image2[target=_top] {
+    position: absolute;
+    top: 100px;
+    left: 430px;
+    z-index: -1;
+    display: none;
+
+    opacity: 0.3;
+   filter: alpha(opacity=100);
+  }
+
+  
+
+  /* bug monika */
+@keyframes parpadeo{
+ from, to{border-color:transparent}
+ 50%{border-color:#FFFFFF}
+}
+@keyframes escribiendo{
+ from{width:100%}
+ to{width:0}
+}
+@-webkit-keyframes parpadeo{
+ from, to{border-color:transparent}
+ 50%{border-color:#FFFFFF}
+}
+@-webkit-keyframes escribiendo{
+ from{width:100%}
+ to{width:0}
+}
+@-moz-keyframes parpadeo {
+ from, to{border-color:transparent}
+ 50%{border-color:#FFFFFF}
+} 
+@-moz-keyframes escribiendo {
+ from{width:100%}
+ to{width:0}
+}
+p#mon2{
+ position:absolute;
+ top:0;
+ right:0;
+ width:0;
+ background-color:#000000;
+ border-left: .1em solid #FFFFFF;
+ box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+ animation: escribiendo 4s steps(36, end), parpadeo 1s step-end infinite;
+ -webkit-animation: escribiendo 4s steps(36, end), parpadeo 1s step-end infinite;
+ -moz-animation: escribiendo 4s steps(36, end), parpadeo 1s step-end infinite;
+}
+#configuracion{
+    display:none;
+}
+
+#play,#stop{
+	display:inline-block;
+	padding:16px;
+	border:1px solid #000;
+	border-radius
+	:5px;
+}
+
+#play:hover,#stop:hover{
+	display:inline-block;
+	padding:16px;
+	border:1px solid #000;
+	border-radius
+	:5px;
+}
+iframe{display:none;}

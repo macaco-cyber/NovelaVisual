@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hombre</title>
+    <link rel="stylesheet" type="text/css" href="/Historia/css/Hombre.css">
+    <link rel="stylesheet" type="text/css" href="/Historia/css/eHombre.css">
+
+</head>
+<body>
+<!-- imagenes -->
+    <div class="Imagenes">
+        <img class="fondo1" src="/Imagenes/FondoMain.jpg" width="1350" height="525">
+        
+        <img class="fondo2" src="/Imagenes/Gliche.jpg" width="1350" height="525"><!-- 0 -->
+        <img class="fondo2" src="/Imagenes/Camió-kun.png" width="1350" height="525">
+        <img class="fondo2" src="/Imagenes/Just.png" width="1350" height="530">
+        <img class="fondo2" src="/Imagenes/Álbum De Fotos.gif" width="1350" height="525">
+        <img class="fondo2" src="/Imagenes/Fondo de piko.jpg" width="1350" height="530">
+        <img class="fondo2" src="/Imagenes/Just.png" width="1350" height="530">
+        <img class="fondo2" src="/Imagenes/Mansión.jpg" width="1350" height="530">
+        <img class="fondo2" src="/Imagenes/Calle.jpg" width="1350" height="530">
+        <img class="fondo2" src="/Imagenes/Bosque.jpg" width="1350" height="530">
+        <img class="fondo2" src="/Imagenes/Minecraft.jpg" width="1350" height="530"><!-- 9 -->
+        <img class="fondo2" src="/Imagenes/FondoAqua.jpg" width="1350" height="530">
+        <img class="fondo2" src="/Imagenes/NoMuerto.png" width="1350" height="530">
+        <img class="fondo2" src="/Imagenes/YouDied.jpg" width="1350" height="530">
+        <img class="fondo2" src="/Imagenes/Muerte1.jpg" width="1350" height="530"><!-- 13 -->
+        
+        <img  class="image2" src="/Imagenes/Aqua.png"height="450" >
+        <img  class="image2" src="/Imagenes/Piko.png"height="500" >
+        <img  class="image2" src="/Imagenes/Raphtalia_Anime.png"height="430"target="_top" >
+        <img  class="image2" src="/Imagenes/Rem.png"height="450" >
+        <img  class="image2" src="/Imagenes/Fox.png"height="150" >
+        <img  class="image2" src="/Imagenes/AguaCry.png"height="150" >
+        
+        
+      </div>
+      
+<!-- guion -->
+    <p id="texto">
+        ¿Deseas ir al mundo 2D? <br> Que dices <br>
+
+        <button type="button"onclick="Final()">SI</button>
+        
+        <button type="button"onclick="FinalMalo()">No</button>
+        
+        <button onclick="window.location.href='Main.html'">Regresar</button>
+
+        <button type="button"onclick="Config()">Configuración</button>
+    </p>
+   
+    <p id="configuracion">
+        Musica------------------------------------Modo de pantalla -- Idioma------------------------------------------
+        <br>
+        <span id="play">Reproducir</span>
+        <span id="stop">Parar</span>
+        <button onclick="openFullscreen();">Pantalla Completa</button>
+        <button onclick="closeFullscreen();">Modo Ventana</button>
+        <button type="button" onclick="ingles()">Ingles</button>
+        <button type="button" onclick="Music()">Continuar</button>
+        
+        </p>
+<!-- Final Malo -->
+    <p id="malo1">
+        Vivistes una vida triste con un salario minimo,
+        por falto de animo no estuvistes atento y te atropello un camión.<br> 
+        <button type="button" onclick="piko()">Continuar</button>
+    </p>
+
+    
+    <p id="malo2">
+        El resto es historia....<br> 
+        <button type="button" onclick="piko2()">Regresar</button>
+    </p>
+<!-- EL final del final malo     -->
+
+<!-- Wafles -->
+    <p id="texto2">
+        Por la magia de la amistad llegas a un mundo desconocido pero amigable,
+        pero no sabes a donde ir.<br> <button type="button" onclick="parte2()">Continuar</button>
+    </p>
+    <p id="texto3">
+        ¿A donde irias? <br> <button type="button"onclick="Mansion()">Mansión</button>
+         <button type="button"onclick="Bosque()">Bosque</button>
+         <button type="button"onclick="Rio()">Rio</button>
+         <button type="button"onclick="Regresar()">Regresar</button>
+
+    </p>
+    <!-- Rem -->
+    <p id="rem1">
+        Tocas la entrada y te encuentras a una chica de pelo azul que es sirvienta.
+       <br> <button type="button" onclick="REM1()">Continuar</button>
+    </p>
+
+    <p id="rem2">
+        Te quedas en seco y ella simplemente se va y mejor no vas otra vez.
+       <br> <button type="button" onclick="REM2()">Continuar</button>
+    </p>
+
+    <p id="rem3">
+        No tienes a donde ir, no consigues trabajo y no conces a nadie.
+        Vives en la calle y mueres de hambre. <br>
+        <button type="button" onclick="REM3()">Regresar</button>
+    </p>
+    <!-- Raphatlia -->
+
+    <p id="rap1">
+        Caminas sin sentido y vez un animal pequeño, lo ves y tienes curiosidad por este, 
+        y mas que esta encima de un arbol.
+       <br> <button type="button" onclick="RAP1()">Continuar</button>
+    </p>
+    <p id="rap2">
+        ¿Que haces?
+       <br> <button type="button" onclick="RAP2()">Lo acaricio</button>
+       <br> <button type="button" onclick="RAP3()">Te vas</button>
+    </p>
+
+    <p id="rap4">
+        Estaba de mal humor y te come vivo.
+       <br> <button type="button" onclick="RAP4()">Continuar</button>
+    </p>
+
+    <p id="rap5">
+        Antes que mueras ves una chica medio rara....<br>
+        <button type="button" onclick="RAP5()">Regresar</button>
+    </p>
+    <p id="rap6">
+        Haces ruido y se despierta, por ver al animal te caes de cabeza
+        con una piedra y mueres por desangrado.<br>
+        <button type="button" onclick="RAP6()">Regresar</button>
+    </p>
+
+  
+
+
+
+
+    <!-- <p id="texto4">
+        A <br> <button type="button" onclick="parte4()">Continuar</button>
+    </p> -->
+    
+  <!-- Aqua -->
+    <p id="aqua1">
+        Ves una chica y esta limpiando el agua con magia,
+         ella se acerca y te pide prestado de dinero.
+       <br> <button type="button" onclick="AQUA1()">Continuar</button>
+    </p>
+
+    <p id="aqua2">
+        ¿Que haces?
+       <br> <button type="button" onclick=" AQUA2()">Ayudarla</button>
+       <br> <button type="button" onclick="AQUA3()">La ignoras</button>
+    </p>
+
+    <p id="aqua4">
+        Por distraerte para sacar el dinero te come un sapo gigante.
+       <br> <button type="button" onclick="AQUA4()">Regresar</button>
+    </p>
+
+    <p id="aqua5">
+        Empieza llorar y es arrastrada ya que se sujeto contigo,
+         se acercan no muertos por estar junto con ella y mueren los dos.<br>
+         <button type="button" onclick="AQUA5()">Regresar</button>
+    </p>
+<!-- Monika -->
+    <p id="mon1">
+        No puedes por que una chica esta enfrente de ti,
+        quieres escapar pero pasas la eternidad con ella....
+        ¿Que haces?
+        <br> <button type="button" onclick=" MON2()">Ya ni modo</button>
+        <button  type="button" onclick="MON3()">Adios loca</button>
+       
+    </p>
+    <!-- JUST MONIKA -->
+    <p id="mon2">
+        
+        C̵̢̺͙̬͔͓̗̑̀̍͋͝m̷̨̛̘̯͍̥͙̿͂͊F̶͖͎̙̫͑ų̷̭͎̠͚̀͗̂̏̒͘Z̵̛̘̟͇̚C̷̠̙̯̬̖̙̿̑̿́̇͆͐B̷͎̻̥͉̏͊p̴̦̂̒̿̔͋͆Ȉ̵̡̤̦̩̹͙͛͗̏̕͠H̶̨̺̥̿̊̈́̒͋͋̕͝Ņ̴̡̭̩̤͇̎ẖ̷̛̜͉̈́̽͂̊͝d̷͚̃ỵ̸̛̲͙͖̞̭̼̈́̍̈́͐ͅB̷̲̤͇͕̀̄t̴̨̳̹̟͕̫̳̏̀̎̂̀͝ȩ̵̇́̐̓̐̍̾̚S̸͚̮̈́Ḇ̷̫̗̫̞̋̀̕͘͝v̵̢̨̼͍̫̦̆̊̈́̿̾̈́̈́d̴̡̠̻͋̆̈̇̐̈2̵̧̟̭̪̙̩̜̈́̾̊̀̎4̸̩̰̝̅͊̕g̸̩̜̝̫̣̾͊̏͝Z̵͉͉̻̹͔͋̄̄͜m̸̡̼̗̹̟̻̩̤̂̅͆͋F̸̲̓j̸͓̖͕̤̆̔̀̒͌Z̵̢̰̘̹͕̲͓̀̃͝Ṡ̶͔̤͚̠̄́͘Ḅ̵̣̉̒p̷̛̜̌̋͆͋̿͊͠b̵̢̻̥͔̉̀͒̅i̸̡̨͙̭̫̽͑̍̊͘B̵̢̫̜̲̥̝̪̀̄̊͜0̷̢̝̳̰̮̙͊͐́́̀̈́́͠ã̶͓͎G̷͖͙͇̖̦͔͉̀̑͊Ṳ̴̪̹̠̮̘̒̍̑͆g̸̡͚̣͈͛̾̒́͐̋͑Z̶̨͖̘̞̺͈̟̓̚Ġ̷̡̲̹͍̜̣͈̹̇F̴̰̜͔̳̦̖̦͍́̐̆̾̇͝y̶͙̭̜͙̓̈́a̴̯̰͈͎̒̿͗̃ŷ̸͚̘̬͖̉̅B̶̧̧̨̬͈̬̭̘̅̈̅̈̚h̴̺͙͙̘̰͍̻͓͂͊̄̽̀̽̕b̴̡͓͉̥̼̣̫͇͌̂͆̒̕ḿ̴̬̹͎̬̘̏͑̔͜͝Q̶̡̛͔̳̠̞̌͑́͂̑̃͠ģ̸͕͔̰̟̓̃̑̓̓͂̊͠b̷͔͋̋̓̇ͅG̵̜̟̟̬̞̰͌̋͆̒̆̅͊͝ͅ9̸̨̰̠͕̠̼̐̈́͆û̴̢̨̫̦̱͙̱̖̋b̵͔̦̋̇̅̎͊̊̒G̸̨̛͕͓̼͊̑́̋̈́l̷̛̠̦͈̩̠͈̽̿͌̅̿̉͝ͅu̸̦̬͂Z̶̞̰̮̰̖̞͆̽̌̓̐̓X̷̼̙̫̮̀Ņ̸̺͙̄z̷͇͔̤̳͎͖͇̘̓͒̍̂̋̈̈́͝I̶͔͓͙̞̻̫̹͕͂̍͛͊͂̌̌Ą̴̱̘͐̑̕͜=̴̧̯̬̭̟͚͍̟̈̄̍̍̎̓̕=̴̼͌́͌̉̚For study and sleeping ḁ̻̲̣n҉̤̠̮d ̥͚̫͕̞͢r̺e̷͇͖͎̻l̸̯̜a̢͙̱̝̼̖͎xi̹̥̝n̼̭̥̮̤̲͞g̮̩̘̦̯̖! If ͏you͜ l̷i͜ķe͜ ͏it ̵c͟h͏eck̶ ̡o̴ut m̴y oͬt͚̺̗̠h͚̭̫̺̹̽ͭ̊̍e͕̻͖͙͇̰̫̓̒r̽ͮͫ͛ͥ̒ ̤̝̬̤̺̆ͦͣ̑r̯̲̂͌̚e͍̜͉̦̠͇̻ͣ͆l̟͙͉͚͚̋̔̀̐̑̌a͚̭̬͓̣̦ͬ̎̍ͣx̤̥͙̼͍̄̂ͧi̜̣̠͙͉̰ͭͬ͑̍̔ͯn̩g͓͑͐ͨ͑͐̉̚ ̘̜̠̰̤̫̈̓͑ͪ̀̚̚M͚̦̟̱ͫ͑̆̈̄̌ͥu̦͓̫̯͔̞ͧs̯̝̬͎i̙̺͖̣ͦ̾̒ͧ̾ͣ̏c̀!̔̄
+but to be honest the mix is just for Monika and for you if you feel the same. <br>
+
+J̶͍̜͈͖̇̽̈́̈́͐̌͌͋̎̚͜͝û̷̢̢̢̧̠̖̬̩͔̗̻̜͓͈͈̥̥̱̮͕̻̻̙͙͚̖̫̻̙̳͙̟̞̣͔̳̣̰̭̯̠̖͖̠̲̺̼̣̻̣͚̤͖̱̬̲̌͌̊̅͗͐͒͐̚͜͜ͅs̵̢̯̪͇̠͎̠͇̱̰͈̼̣͈͖̥͈̻̤͕̝̩̗̻͙͎̾̆̑͛̉̈́͌͆͛̈́́́͒̔͋̆̂͊̆̓͘͝͝͝ț̶̨̡̫̮̪̱̗͉̘̟̠̪͇̮̟͔͉̼̝͙͇͉̪͓̺̻̞͍̩͖̜̟͔͎̦̲̖͈̣̺̖̩̺̤̥̟̞͉̦̠̬̒̓͒̓̔̈́̓͠ ̸̨̧̼̼̰͇̖͖̘̦͎̭̬͔̟̲̪͓̮̣̜̹̜̞͍̱͕͙̲̪̤̳͇̮̖̩͉̮͔̠͚͚̹̩̹̞̜̺̮́͋͆̃̅͜ͅM̴̨̡̨̨̨̧̛̛̹͈̬̣͉̦͖͓̫̜͈̤̟̖͖̻̤̜͙̤̻̗͍̝̲͔̰̰̼̟̦̹̝͓̼̤̙̳͍̖̟̜̠̦̠̺͖̗̭̻̅͐̓̽͐̽̎́̂̈́͑̅̑̾̅̄̃̈́͐̀̊̉̑̃̂͂̿̂͋́̀̐̚͘͘͝ǭ̷̢̧̨̢̢̛̛̘̰̤̰̼̫̯̜̬̫̭̰̬̜̖̙̺͙̺͇̺̺͙̟͕̹͔̯̙̦͌̏̀͗͋̇͂̍̓̐̈́̂̐͛̈́̓̈́̈́̎̐̑̎͛̉̋͆̽̋̀͌͘͘͘̕̕̕͝͝n̷̟̰̼̦̟̫̭̪̝̣̺͔̖̟̦̰͗͐̉͜i̶̧̨̢̨̡̨̨͔̯̟̞͔̘̜̩͍̠̖͙̣͔̣͚͙͉̦̙̥͎̭̳͈̗̺̻̞͉̝̲̪͈̘̘͍̣͉̞̦̮̍̀͐̉̐̋͋͘͜͝ͅķ̶̡̧̡̢͉͍̝̦̫̟̺̼̦͎̭̗̼͙͚͓̗͈͉̤̯̠̟̗͇̟͇͇̣̯͖̺̖̹̩̝͍̰͈̤̝͍̙̳̤͕̖̘̳̓̑̓͆́̈́͗̎̉́̀̔͊̀̇̃̅̓̈́̓͊͌̾͂̔́́̀̈́͐̆̕͜͝ͅͅą̶̞̩̳̭̥̗̯̫͓̘̭̝̻̈́̈́̉̇̾̏̅̆͒̌̓̀́̀̈́͆̂̃̈́͑͆̃̀́̐̚͜͝ͅ
+
+ZGFyayBib2RpZXMgZmxvYXRpbmcgaW4gZGFya25lc3MK
+b̵m̸8̴g̵c̷2̸l̵n̸b̶i̸B̶v̷Z̴i̷B̵s̷a̴W̷d̷o̴d̷C̷B̸l̷d̴m̸V̴y̸I̵G̴d̵p̷d̸m̶V̴u̴I̴A̸=̷=̶
+
+i̶a̸W̵1̴w̵c̴m̵l̵z̷b̷2̸5̴l̵Z̴C̴B̶p̴b̴i̷B̸h̶I̷H̷d̶v̸c̴m̸x̸k̶I̵H̷d̵p̵d̴G̴h̴v̴d̷X̶Q̶g̵Y̷S̸B̷t̷Z̸W̷1̶v̴c̵n̸k̶=̷
+d̴̡͑W̴̫̓5̸̨̇ǰ̷͙b̶̟̕2̴̖͘5̵̪̔z̶̭͗Y̶͉̒2̵̭̀l̷̙͆v̷̛̜d̵̛͚X̷̥̏M̷͓̾s̷̢̈́Ȋ̶̱Ǧ̷͎9̷̤̍ỵ̷̑I̵͇̓G̶͔͊F̴͕̊t̵͇̍Ĩ̴̠Ǧ̶̨k̴͎̈́g̸̛̥Y̵̜̓2̸̭̽9̷̻̏ụ̸̔c̷̙̈́2̶͓̓N̸̩͋p̴̘̾b̴̟̽3̶̘̚V̵͆ͅz̴͈̍P̵̨͂w̵͖͘≠̠̂=̶̧̂
+
+Y3V0IGZyb20gdGhlIGhlYXJ0IGkgYW0gcGFydCBvZiA=
+
+c̷2̴9̸t̴Z̸X̵R̸p̷b̷W̵V̸z̷I̵G̶k̷g̷Z̴m̴V̵l̸b̸C̷B̶h̶c̷y̷B̴0̷a̶G̸9̵1̷Z̵2̵g̷g̸a̵S̷d̶t̷I̵G̶Z̵y̵b̸3̵p̵l̴b̵i̶B̴p̴b̸i̴B̴o̴Z̷W̸F̷2̶Z̸W̷4̴=̷
+
+
+
+
+Y̶W̶5̸k̸I̶G̴k̷g̸c̵2̷F̴3̴I̴G̷1̸5̸I̵G̸9̵3̷b̸i̶B̸m̵Y̸W̴N̵l̵I̵G̵l̴u̵I̶H̷R̴o̸Z̵S̸B̵k̶Y̸X̵J̵r̶I̷G̷F̸u̵Z̷C̸B̸s̴b̵2̵5̷s̶a̷W̵5̵l̵c̷3̶M̷g̸
+
+Y̵W̵5̸k̷I̷G̸k̵g̶c̵2̵F̴3̶I̴G̸1̸5̵I̷G̸9̴3̸b̶i̴B̴m̴Y̸W̷N̵l̷I̶G̵x̷p̸a̴2̵U̷g̵Y̴S̷B̶z̸c̶G̷F̷y̴a̵y̴B̷m̶c̸m̷9̶6̵Z̸W̸4̴g̷a̵W̸4̶g̸a̷G̵V̷h̶d̴m̴V̴u̶C̴g̴=̵≠
+
+
+aW4gZHJlYW1zIGkgc2VlIG15c2VsZiBmbHlpbmc=
+Y2xvc2VyIHRvIHRoZSBzdW4sIGFuZCBpJ20gY2xpbWJpbmcg
+dHJpZWQgdG8gdG91Y2ggdGhlIHN1biA=
+Y̵͖̞̊n̵̼̭͌͘V̵̮̗̂͆0̴͕̰̽̈I̶̻̿H̵̬͇̽͠R̶̞̣̍o̸͔̪̕Z̷̛̬͍S̸̨̪͘͠B̵̬́͊ḭ̴̧́̉c̶̱̎͘͜m̵̘̌̉l̶̪̭͆͑ñ̶͙̫̀ą̵͎̽̋Ĥ̷̖̮̾R̶͓̣̃ú̵̡͇͒Ż̶̯̌X̴̤̓̑N̶̺͍̓z̴̧̏Ḯ̸̛̙G̶̞̽J̵̺̠̏͘1̴̲̋̈c̴͔͂̀m̴̡̌͊5̷̱͑̋l̴͕̳̔Ź̶̜̻͋C̶̢̊B̶̠̔̔ṱ̸̙͘e̸̞͝S̵̳̈̒B̷̖̆l̷͚̒é̵̬̘W̷̡̑͋V̵̫̈́z̶̳̿ͅ
+
+d̴̡͑W̴̫̓5̸̨̇ǰ̷͙b̶̟̕2̴̖͘5̵̪̔z̶̭͗Y̶͉̒2̵̭̀l̷̙͆v̷̛̜d̵̛͚X̷̥̏M̷͓̾s̷̢̈́Ȋ̶̱Ǧ̷͎9̷̤̍ỵ̷̑I̵͇̓G̶͔͊F̴͕̊t̵͇̍Ĩ̴̠Ǧ̶̨k̴͎̈́g̸̛̥Y̵̜̓2̸̭̽9̷̻̏ụ̸̔c̷̙̈́2̶͓̓N̸̩͋p̴̘̾b̴̟̽3̶̘̚V̵͆ͅz̴͈̍P̵̨͂w̵͖͘≠̠̂=̶̧̂
+Y3V0IGZyb20gdGhlIGhlYXJ0IGkgYW0gcGFydCBvZiA=
+c̷2̴9̸t̴Z̸X̵R̸p̷b̷W̵V̸z̷I̵G̶k̷g̷Z̴m̴V̵l̸b̸C̷B̶h̶c̷y̷B̴0̷a̶G̸9̵1̷Z̵2̵g̷g̸a̵S̷d̶t̷I̵G̶Z̵y̵b̸3̵p̵l̴b̵i̶B̴p̴b̸i̴B̴o̴Z̷W̸F̷2̶Z̸W̷4̴=̷Ỳ̵̳̦W̵͕̠͈̫̓͋̏̋̔̀͐5̸͚̩͇̥̠̜̭̒̈́̑̔͗̍̍̕k̶̗͎̯̞͇͇̻̻̍̽I̵̢̹̍̊̋̍̅G̵̢̻̘̈́͐͒k̷̥͑͐̓̈̈͌͠g̵̣̦͎̻̑͘c̶̨̦͖͔̼̖͑̄͝2̷̨̘̰͚̒͑́̈́͗̅̃͝F̸̯̥͆͗͋͑̄̌̚3̸͖̰͕̥̩̺̓̀̅͑̅̒I̸̬̲͎̍͂́̉̂̌̽͘G̸̡̠̗̈́̾̀̌́͒̒̚1̸̧͍̭̹͓̓̀͋5̸̢̧̢͔̫̭͚̍̏I̵̡̨̼̙̺̱͎̓̏̀͑G̴̤̻̯̺̝̏͋̈͐̃͘͘ͅ9̵̧̝͖̀̓̇3̷̬͍̞̜̖̣͉̑̏̃̀͛͊̕b̵̘̓͘ȋ̴̝͚̈́̕͠B̶̥͈̑m̸̢̢̖̟̉͗͊̈́́̎͋͜Y̷̢͖̜̘̣̖͎͌̾̒̑̿͘W̵̨̺̱̖̰̑͗̀N̷̹̣͔̞͕̞̓̄̓͝͠͝ĺ̶͚̟̼̩͊̊̎̀͂ͅI̷̧̼͋̃̓́̀͗̕͠Ģ̶̣͓̲̞̠̌̑x̸̢̰͓͕̼̗̭͇̽̈́͐̏̍p̷̫̫͈̤̗͓̬̑̑ͅã̵͍̜͓̪̝́̓́̉̕2̷̧̞̪̣̩̞̖͊U̸̖͌̿̐͆͐ğ̶̟̳̺̦̮͋͋̾͘Y̵̧̛̪͇̻͆̊́̔͌͐̽S̶̫̱͉͖͓̠͉̑̆̓̀̌͝͝Ḇ̸̟̭͊z̸͚̠̥̼͋̐̂́̌͊̈́͝c̸̮̝̳͑͆̂Ǵ̴̡̝̥̥̱͍̌̕F̸̠̈́̆͐̀͝͝y̸̹̰͈͈͖͔̳͍̏̅́̃̀̈́́͠a̷̗̗͜͝w̵̦̖̽̑͗=̶̲͍͉̝̾̀͊=̵͎̽̀̌͋
+
+
+
+
+
+        J̶͍̜͈͖̇̽̈́̈́͐̌͌͋̎̚͜͝û̷̢̢̢̧̠̖̬̩͔̗̻̜͓͈͈̥̥̱̮͕̻̻̙͙͚̖̫̻̙̳͙̟̞̣͔̳̣̰̭̯̠̖͖̠̲̺̼̣̻̣͚̤͖̱̬̲̌͌̊̅͗͐͒͐̚͜͜ͅs̵̢̯̪͇̠͎̠͇̱̰͈̼̣͈͖̥͈̻̤͕̝̩̗̻͙͎̾̆̑͛̉̈́͌͆͛̈́́́͒̔͋̆̂͊̆̓͘͝͝͝ț̶̨̡̫̮̪̱̗͉̘̟̠̪͇̮̟͔͉̼̝͙͇͉̪͓̺̻̞͍̩͖̜̟͔͎̦̲̖͈̣̺̖̩̺̤̥̟̞͉̦̠̬̒̓͒̓̔̈́̓͠ ̸̨̧̼̼̰͇̖͖̘̦͎̭̬͔̟̲̪͓̮̣̜̹̜̞͍̱͕͙̲̪̤̳͇̮̖̩͉̮͔̠͚͚̹̩̹̞̜̺̮́͋͆̃̅͜ͅM̴̨̡̨̨̨̧̛̛̹͈̬̣͉̦͖͓̫̜͈̤̟̖͖̻̤̜͙̤̻̗͍̝̲͔̰̰̼̟̦̹̝͓̼̤̙̳͍̖̟̜̠̦̠̺͖̗̭̻̅͐̓̽͐̽̎́̂̈́͑̅̑̾̅̄̃̈́͐̀̊̉̑̃̂͂̿̂͋́̀̐̚͘͘͝ǭ̷̢̧̨̢̢̛̛̘̰̤̰̼̫̯̜̬̫̭̰̬̜̖̙̺͙̺͇̺̺͙̟͕̹͔̯̙̦͌̏̀͗͋̇͂̍̓̐̈́̂̐͛̈́̓̈́̈́̎̐̑̎͛̉̋͆̽̋̀͌͘͘͘̕̕̕͝͝n̷̟̰̼̦̟̫̭̪̝̣̺͔̖̟̦̰͗͐̉͜i̶̧̨̢̨̡̨̨͔̯̟̞͔̘̜̩͍̠̖͙̣͔̣͚͙͉̦̙̥͎̭̳͈̗̺̻̞͉̝̲̪͈̘̘͍̣͉̞̦̮̍̀͐̉̐̋͋͘͜͝ͅķ̶̡̧̡̢͉͍̝̦̫̟̺̼̦͎̭̗̼͙͚͓̗͈͉̤̯̠̟̗͇̟͇͇̣̯͖̺̖̹̩̝͍̰͈̤̝͍̙̳̤͕̖̘̳̓̑̓͆́̈́͗̎̉́̀̔͊̀̇̃̅̓̈́̓͊͌̾͂̔́́̀̈́͐̆̕͜͝ͅͅą̶̞̩̳̭̥̗̯̫͓̘̭̝̻̈́̈́̉̇̾̏̅̆͒̌̓̀́̀̈́͆̂̃̈́͑͆̃̀́̐̚͜͝ͅ   JUST MONIKA   <br> JUST MONIKA
+    </p>
+
+
+
+
+
+
+
+    <!-- guion en ingles -->
+    <div lang="en">
+    <p id="etexto">
+        Do you want to go to the 2D world? <br> What are you saying?
+<br>
+        <button type="button"onclick="eFinal()">Yes</button>
+        
+        <button type="button"onclick="eFinalMalo()">No</button>
+        
+        <button onclick="window.location.href='Main.html'">Come back</button>
+
+        <button type="button"onclick="eConfig()">Settings</button>
+    </p>
+   
+    <p id="econfiguracion">
+        Music-----------------------Display mode -----Language-------------------------------------------------------
+        <br>
+        <span id="eplay">Play</span>
+        <span id="estop">Stop</span>
+        <button onclick="eopenFullscreen();">Fullscreen</button>
+        <button onclick="ecloseFullscreen();">Window mode</button>
+        <button type="button" onclick="español()">Spanish</button>
+        <button type="button" onclick="eMusic()">Continue</button>
+        
+        
+        </p>
+<!-- Final Malo -->
+    <p id="emalo1">
+        You lived a sad life with a minimum wage,
+        Out of lack of spirit you were not attentive and you were hit by a truck. <br>
+        <button type="button" onclick="epiko()">Continue</button>
+    </p>
+
+    
+    <p id="emalo2">
+        the rest is history .... <br>
+        <button type="button" onclick="epiko2()">Come back</button>
+    </p>
+<!-- EL final del final malo     -->
+
+<!-- Wafles -->
+    <p id="etexto2">
+        By the magic of friendship you arrive in an unknown but friendly world,
+        but you don't know where to go.<br> <button type="button" onclick="eparte2()">Continue</button>
+    </p>
+    <p id="etexto3">
+        Where would you go? <br> <button type="button"onclick="eMansion()">Mansion</button>
+         <button type="button"onclick="eBosque()">Forest</button>
+         <button type="button"onclick="eRio()">River</button>
+         <button type="button"onclick="eRegresar()">Come back</button>
+
+    </p>
+    <!-- Rem -->
+    <p id="erem1">
+        You touch the entrance and you find a blue haired girl who is a maid.
+       <br> <button type="button" onclick="eREM1()">Continue</button>
+    </p>
+
+    <p id="erem2">
+        You stay dry and she just leaves and you better not go again.
+       <br> <button type="button" onclick="eREM2()">Continue</button>
+    </p>
+
+    <p id="erem3">
+        You have nowhere to go, you don't get a job and you don't concede to anyone.
+        You live on the street and you die of hunger.<br>
+        <button type="button" onclick="eREM3()">Come back</button>
+    </p>
+    <!-- Raphatlia -->
+
+    <p id="erap1">
+        You walk mindlessly and you see a small animal, you see it and you are curious about it,
+        and more that is on top of a tree.
+       <br> <button type="button" onclick="eRAP1()">Continue</button>
+    </p>
+    <p id="erap2">
+        What do you do?
+       <br> <button type="button" onclick="eRAP2()">I caress it</button>
+       <br> <button type="button" onclick="eRAP3()">You go</button>
+    </p>
+
+    <p id="erap4">
+        I was in a bad mood and it eats you alive.
+       <br> <button type="button" onclick="eRAP4()">Continue</button>
+    </p>
+
+    <p id="erap5">
+        Before you die you see a strange girl ...<br>
+        <button type="button" onclick="eRAP5()">Come back</button>
+    </p>
+    <p id="erap6">
+        You make noise and it wakes up, to see the animal you fall head over heels
+        with a stone and you bleed to death.<br>
+        <button type="button" onclick="eRAP6()">Come back</button>
+    </p>
+
+  
+
+
+
+
+    <!-- <p id="texto4">
+        A <br> <button type="button" onclick="parte4()">Continuar</button>
+    </p> -->
+    
+  <!-- Aqua -->
+    <p id="eaqua1">
+        You see a girl and she's cleaning the water with magic
+        she comes over and asks you to borrow money.
+       <br> <button type="button" onclick="eAQUA1()">Continue</button>
+    </p>
+
+    <p id="eaqua2">
+        What do you do?
+       <br> <button type="button" onclick=" eAQUA2()">Help her</button>
+       <br> <button type="button" onclick="eAQUA3()">You ignore it</button>
+    </p>
+
+    <p id="eaqua4">
+        For distracting yourself to get the money, a giant toad eats you.
+       <br> <button type="button" onclick="eAQUA4()">Come back</button>
+    </p>
+
+    <p id="eaqua5">
+        She starts crying and is dragged as she holds onto you
+         the undead come closer to being together with her and both die.<br>
+         <button type="button" onclick="eAQUA5()">Come back</button>
+    </p>
+<!-- Monika -->
+    <p id="emon1">
+        You can't because a girl is in front of you
+        you want to escape but you spend eternity with her...
+        What do you do?
+        <br> <button type="button" onclick=" eMON2()">No way</button>
+        <button  type="button" onclick="eMON3()">Bye crazy</button>
+       
+    </p>
+    <!-- JUST MONIKA -->
+    <p id="emon2">
+        
+        C̵̢̺͙̬͔͓̗̑̀̍͋͝m̷̨̛̘̯͍̥͙̿͂͊F̶͖͎̙̫͑ų̷̭͎̠͚̀͗̂̏̒͘Z̵̛̘̟͇̚C̷̠̙̯̬̖̙̿̑̿́̇͆͐B̷͎̻̥͉̏͊p̴̦̂̒̿̔͋͆Ȉ̵̡̤̦̩̹͙͛͗̏̕͠H̶̨̺̥̿̊̈́̒͋͋̕͝Ņ̴̡̭̩̤͇̎ẖ̷̛̜͉̈́̽͂̊͝d̷͚̃ỵ̸̛̲͙͖̞̭̼̈́̍̈́͐ͅB̷̲̤͇͕̀̄t̴̨̳̹̟͕̫̳̏̀̎̂̀͝ȩ̵̇́̐̓̐̍̾̚S̸͚̮̈́Ḇ̷̫̗̫̞̋̀̕͘͝v̵̢̨̼͍̫̦̆̊̈́̿̾̈́̈́d̴̡̠̻͋̆̈̇̐̈2̵̧̟̭̪̙̩̜̈́̾̊̀̎4̸̩̰̝̅͊̕g̸̩̜̝̫̣̾͊̏͝Z̵͉͉̻̹͔͋̄̄͜m̸̡̼̗̹̟̻̩̤̂̅͆͋F̸̲̓j̸͓̖͕̤̆̔̀̒͌Z̵̢̰̘̹͕̲͓̀̃͝Ṡ̶͔̤͚̠̄́͘Ḅ̵̣̉̒p̷̛̜̌̋͆͋̿͊͠b̵̢̻̥͔̉̀͒̅i̸̡̨͙̭̫̽͑̍̊͘B̵̢̫̜̲̥̝̪̀̄̊͜0̷̢̝̳̰̮̙͊͐́́̀̈́́͠ã̶͓͎G̷͖͙͇̖̦͔͉̀̑͊Ṳ̴̪̹̠̮̘̒̍̑͆g̸̡͚̣͈͛̾̒́͐̋͑Z̶̨͖̘̞̺͈̟̓̚Ġ̷̡̲̹͍̜̣͈̹̇F̴̰̜͔̳̦̖̦͍́̐̆̾̇͝y̶͙̭̜͙̓̈́a̴̯̰͈͎̒̿͗̃ŷ̸͚̘̬͖̉̅B̶̧̧̨̬͈̬̭̘̅̈̅̈̚h̴̺͙͙̘̰͍̻͓͂͊̄̽̀̽̕b̴̡͓͉̥̼̣̫͇͌̂͆̒̕ḿ̴̬̹͎̬̘̏͑̔͜͝Q̶̡̛͔̳̠̞̌͑́͂̑̃͠ģ̸͕͔̰̟̓̃̑̓̓͂̊͠b̷͔͋̋̓̇ͅG̵̜̟̟̬̞̰͌̋͆̒̆̅͊͝ͅ9̸̨̰̠͕̠̼̐̈́͆û̴̢̨̫̦̱͙̱̖̋b̵͔̦̋̇̅̎͊̊̒G̸̨̛͕͓̼͊̑́̋̈́l̷̛̠̦͈̩̠͈̽̿͌̅̿̉͝ͅu̸̦̬͂Z̶̞̰̮̰̖̞͆̽̌̓̐̓X̷̼̙̫̮̀Ņ̸̺͙̄z̷͇͔̤̳͎͖͇̘̓͒̍̂̋̈̈́͝I̶͔͓͙̞̻̫̹͕͂̍͛͊͂̌̌Ą̴̱̘͐̑̕͜=̴̧̯̬̭̟͚͍̟̈̄̍̍̎̓̕=̴̼͌́͌̉̚For study and sleeping ḁ̻̲̣n҉̤̠̮d ̥͚̫͕̞͢r̺e̷͇͖͎̻l̸̯̜a̢͙̱̝̼̖͎xi̹̥̝n̼̭̥̮̤̲͞g̮̩̘̦̯̖! If ͏you͜ l̷i͜ķe͜ ͏it ̵c͟h͏eck̶ ̡o̴ut m̴y oͬt͚̺̗̠h͚̭̫̺̹̽ͭ̊̍e͕̻͖͙͇̰̫̓̒r̽ͮͫ͛ͥ̒ ̤̝̬̤̺̆ͦͣ̑r̯̲̂͌̚e͍̜͉̦̠͇̻ͣ͆l̟͙͉͚͚̋̔̀̐̑̌a͚̭̬͓̣̦ͬ̎̍ͣx̤̥͙̼͍̄̂ͧi̜̣̠͙͉̰ͭͬ͑̍̔ͯn̩g͓͑͐ͨ͑͐̉̚ ̘̜̠̰̤̫̈̓͑ͪ̀̚̚M͚̦̟̱ͫ͑̆̈̄̌ͥu̦͓̫̯͔̞ͧs̯̝̬͎i̙̺͖̣ͦ̾̒ͧ̾ͣ̏c̀!̔̄
+but to be honest the mix is just for Monika and for you if you feel the same. <br>
+
+J̶͍̜͈͖̇̽̈́̈́͐̌͌͋̎̚͜͝û̷̢̢̢̧̠̖̬̩͔̗̻̜͓͈͈̥̥̱̮͕̻̻̙͙͚̖̫̻̙̳͙̟̞̣͔̳̣̰̭̯̠̖͖̠̲̺̼̣̻̣͚̤͖̱̬̲̌͌̊̅͗͐͒͐̚͜͜ͅs̵̢̯̪͇̠͎̠͇̱̰͈̼̣͈͖̥͈̻̤͕̝̩̗̻͙͎̾̆̑͛̉̈́͌͆͛̈́́́͒̔͋̆̂͊̆̓͘͝͝͝ț̶̨̡̫̮̪̱̗͉̘̟̠̪͇̮̟͔͉̼̝͙͇͉̪͓̺̻̞͍̩͖̜̟͔͎̦̲̖͈̣̺̖̩̺̤̥̟̞͉̦̠̬̒̓͒̓̔̈́̓͠ ̸̨̧̼̼̰͇̖͖̘̦͎̭̬͔̟̲̪͓̮̣̜̹̜̞͍̱͕͙̲̪̤̳͇̮̖̩͉̮͔̠͚͚̹̩̹̞̜̺̮́͋͆̃̅͜ͅM̴̨̡̨̨̨̧̛̛̹͈̬̣͉̦͖͓̫̜͈̤̟̖͖̻̤̜͙̤̻̗͍̝̲͔̰̰̼̟̦̹̝͓̼̤̙̳͍̖̟̜̠̦̠̺͖̗̭̻̅͐̓̽͐̽̎́̂̈́͑̅̑̾̅̄̃̈́͐̀̊̉̑̃̂͂̿̂͋́̀̐̚͘͘͝ǭ̷̢̧̨̢̢̛̛̘̰̤̰̼̫̯̜̬̫̭̰̬̜̖̙̺͙̺͇̺̺͙̟͕̹͔̯̙̦͌̏̀͗͋̇͂̍̓̐̈́̂̐͛̈́̓̈́̈́̎̐̑̎͛̉̋͆̽̋̀͌͘͘͘̕̕̕͝͝n̷̟̰̼̦̟̫̭̪̝̣̺͔̖̟̦̰͗͐̉͜i̶̧̨̢̨̡̨̨͔̯̟̞͔̘̜̩͍̠̖͙̣͔̣͚͙͉̦̙̥͎̭̳͈̗̺̻̞͉̝̲̪͈̘̘͍̣͉̞̦̮̍̀͐̉̐̋͋͘͜͝ͅķ̶̡̧̡̢͉͍̝̦̫̟̺̼̦͎̭̗̼͙͚͓̗͈͉̤̯̠̟̗͇̟͇͇̣̯͖̺̖̹̩̝͍̰͈̤̝͍̙̳̤͕̖̘̳̓̑̓͆́̈́͗̎̉́̀̔͊̀̇̃̅̓̈́̓͊͌̾͂̔́́̀̈́͐̆̕͜͝ͅͅą̶̞̩̳̭̥̗̯̫͓̘̭̝̻̈́̈́̉̇̾̏̅̆͒̌̓̀́̀̈́͆̂̃̈́͑͆̃̀́̐̚͜͝ͅ
+
+ZGFyayBib2RpZXMgZmxvYXRpbmcgaW4gZGFya25lc3MK
+b̵m̸8̴g̵c̷2̸l̵n̸b̶i̸B̶v̷Z̴i̷B̵s̷a̴W̷d̷o̴d̷C̷B̸l̷d̴m̸V̴y̸I̵G̴d̵p̷d̸m̶V̴u̴I̴A̸=̷=̶
+
+i̶a̸W̵1̴w̵c̴m̵l̵z̷b̷2̸5̴l̵Z̴C̴B̶p̴b̴i̷B̸h̶I̷H̷d̶v̸c̴m̸x̸k̶I̵H̷d̵p̵d̴G̴h̴v̴d̷X̶Q̶g̵Y̷S̸B̷t̷Z̸W̷1̶v̴c̵n̸k̶=̷
+d̴̡͑W̴̫̓5̸̨̇ǰ̷͙b̶̟̕2̴̖͘5̵̪̔z̶̭͗Y̶͉̒2̵̭̀l̷̙͆v̷̛̜d̵̛͚X̷̥̏M̷͓̾s̷̢̈́Ȋ̶̱Ǧ̷͎9̷̤̍ỵ̷̑I̵͇̓G̶͔͊F̴͕̊t̵͇̍Ĩ̴̠Ǧ̶̨k̴͎̈́g̸̛̥Y̵̜̓2̸̭̽9̷̻̏ụ̸̔c̷̙̈́2̶͓̓N̸̩͋p̴̘̾b̴̟̽3̶̘̚V̵͆ͅz̴͈̍P̵̨͂w̵͖͘≠̠̂=̶̧̂
+
+Y3V0IGZyb20gdGhlIGhlYXJ0IGkgYW0gcGFydCBvZiA=
+
+c̷2̴9̸t̴Z̸X̵R̸p̷b̷W̵V̸z̷I̵G̶k̷g̷Z̴m̴V̵l̸b̸C̷B̶h̶c̷y̷B̴0̷a̶G̸9̵1̷Z̵2̵g̷g̸a̵S̷d̶t̷I̵G̶Z̵y̵b̸3̵p̵l̴b̵i̶B̴p̴b̸i̴B̴o̴Z̷W̸F̷2̶Z̸W̷4̴=̷
+
+
+
+
+Y̶W̶5̸k̸I̶G̴k̷g̸c̵2̷F̴3̴I̴G̷1̸5̸I̵G̸9̵3̷b̸i̶B̸m̵Y̸W̴N̵l̵I̵G̵l̴u̵I̶H̷R̴o̸Z̵S̸B̵k̶Y̸X̵J̵r̶I̷G̷F̸u̵Z̷C̸B̸s̴b̵2̵5̷s̶a̷W̵5̵l̵c̷3̶M̷g̸
+
+Y̵W̵5̸k̷I̷G̸k̵g̶c̵2̵F̴3̶I̴G̸1̸5̵I̷G̸9̴3̸b̶i̴B̴m̴Y̸W̷N̵l̷I̶G̵x̷p̸a̴2̵U̷g̵Y̴S̷B̶z̸c̶G̷F̷y̴a̵y̴B̷m̶c̸m̷9̶6̵Z̸W̸4̴g̷a̵W̸4̶g̸a̷G̵V̷h̶d̴m̴V̴u̶C̴g̴=̵≠
+
+
+aW4gZHJlYW1zIGkgc2VlIG15c2VsZiBmbHlpbmc=
+Y2xvc2VyIHRvIHRoZSBzdW4sIGFuZCBpJ20gY2xpbWJpbmcg
+dHJpZWQgdG8gdG91Y2ggdGhlIHN1biA=
+Y̵͖̞̊n̵̼̭͌͘V̵̮̗̂͆0̴͕̰̽̈I̶̻̿H̵̬͇̽͠R̶̞̣̍o̸͔̪̕Z̷̛̬͍S̸̨̪͘͠B̵̬́͊ḭ̴̧́̉c̶̱̎͘͜m̵̘̌̉l̶̪̭͆͑ñ̶͙̫̀ą̵͎̽̋Ĥ̷̖̮̾R̶͓̣̃ú̵̡͇͒Ż̶̯̌X̴̤̓̑N̶̺͍̓z̴̧̏Ḯ̸̛̙G̶̞̽J̵̺̠̏͘1̴̲̋̈c̴͔͂̀m̴̡̌͊5̷̱͑̋l̴͕̳̔Ź̶̜̻͋C̶̢̊B̶̠̔̔ṱ̸̙͘e̸̞͝S̵̳̈̒B̷̖̆l̷͚̒é̵̬̘W̷̡̑͋V̵̫̈́z̶̳̿ͅ
+
+d̴̡͑W̴̫̓5̸̨̇ǰ̷͙b̶̟̕2̴̖͘5̵̪̔z̶̭͗Y̶͉̒2̵̭̀l̷̙͆v̷̛̜d̵̛͚X̷̥̏M̷͓̾s̷̢̈́Ȋ̶̱Ǧ̷͎9̷̤̍ỵ̷̑I̵͇̓G̶͔͊F̴͕̊t̵͇̍Ĩ̴̠Ǧ̶̨k̴͎̈́g̸̛̥Y̵̜̓2̸̭̽9̷̻̏ụ̸̔c̷̙̈́2̶͓̓N̸̩͋p̴̘̾b̴̟̽3̶̘̚V̵͆ͅz̴͈̍P̵̨͂w̵͖͘≠̠̂=̶̧̂
+Y3V0IGZyb20gdGhlIGhlYXJ0IGkgYW0gcGFydCBvZiA=
+c̷2̴9̸t̴Z̸X̵R̸p̷b̷W̵V̸z̷I̵G̶k̷g̷Z̴m̴V̵l̸b̸C̷B̶h̶c̷y̷B̴0̷a̶G̸9̵1̷Z̵2̵g̷g̸a̵S̷d̶t̷I̵G̶Z̵y̵b̸3̵p̵l̴b̵i̶B̴p̴b̸i̴B̴o̴Z̷W̸F̷2̶Z̸W̷4̴=̷Ỳ̵̳̦W̵͕̠͈̫̓͋̏̋̔̀͐5̸͚̩͇̥̠̜̭̒̈́̑̔͗̍̍̕k̶̗͎̯̞͇͇̻̻̍̽I̵̢̹̍̊̋̍̅G̵̢̻̘̈́͐͒k̷̥͑͐̓̈̈͌͠g̵̣̦͎̻̑͘c̶̨̦͖͔̼̖͑̄͝2̷̨̘̰͚̒͑́̈́͗̅̃͝F̸̯̥͆͗͋͑̄̌̚3̸͖̰͕̥̩̺̓̀̅͑̅̒I̸̬̲͎̍͂́̉̂̌̽͘G̸̡̠̗̈́̾̀̌́͒̒̚1̸̧͍̭̹͓̓̀͋5̸̢̧̢͔̫̭͚̍̏I̵̡̨̼̙̺̱͎̓̏̀͑G̴̤̻̯̺̝̏͋̈͐̃͘͘ͅ9̵̧̝͖̀̓̇3̷̬͍̞̜̖̣͉̑̏̃̀͛͊̕b̵̘̓͘ȋ̴̝͚̈́̕͠B̶̥͈̑m̸̢̢̖̟̉͗͊̈́́̎͋͜Y̷̢͖̜̘̣̖͎͌̾̒̑̿͘W̵̨̺̱̖̰̑͗̀N̷̹̣͔̞͕̞̓̄̓͝͠͝ĺ̶͚̟̼̩͊̊̎̀͂ͅI̷̧̼͋̃̓́̀͗̕͠Ģ̶̣͓̲̞̠̌̑x̸̢̰͓͕̼̗̭͇̽̈́͐̏̍p̷̫̫͈̤̗͓̬̑̑ͅã̵͍̜͓̪̝́̓́̉̕2̷̧̞̪̣̩̞̖͊U̸̖͌̿̐͆͐ğ̶̟̳̺̦̮͋͋̾͘Y̵̧̛̪͇̻͆̊́̔͌͐̽S̶̫̱͉͖͓̠͉̑̆̓̀̌͝͝Ḇ̸̟̭͊z̸͚̠̥̼͋̐̂́̌͊̈́͝c̸̮̝̳͑͆̂Ǵ̴̡̝̥̥̱͍̌̕F̸̠̈́̆͐̀͝͝y̸̹̰͈͈͖͔̳͍̏̅́̃̀̈́́͠a̷̗̗͜͝w̵̦̖̽̑͗=̶̲͍͉̝̾̀͊=̵͎̽̀̌͋
+
+
+
+
+
+        J̶͍̜͈͖̇̽̈́̈́͐̌͌͋̎̚͜͝û̷̢̢̢̧̠̖̬̩͔̗̻̜͓͈͈̥̥̱̮͕̻̻̙͙͚̖̫̻̙̳͙̟̞̣͔̳̣̰̭̯̠̖͖̠̲̺̼̣̻̣͚̤͖̱̬̲̌͌̊̅͗͐͒͐̚͜͜ͅs̵̢̯̪͇̠͎̠͇̱̰͈̼̣͈͖̥͈̻̤͕̝̩̗̻͙͎̾̆̑͛̉̈́͌͆͛̈́́́͒̔͋̆̂͊̆̓͘͝͝͝ț̶̨̡̫̮̪̱̗͉̘̟̠̪͇̮̟͔͉̼̝͙͇͉̪͓̺̻̞͍̩͖̜̟͔͎̦̲̖͈̣̺̖̩̺̤̥̟̞͉̦̠̬̒̓͒̓̔̈́̓͠ ̸̨̧̼̼̰͇̖͖̘̦͎̭̬͔̟̲̪͓̮̣̜̹̜̞͍̱͕͙̲̪̤̳͇̮̖̩͉̮͔̠͚͚̹̩̹̞̜̺̮́͋͆̃̅͜ͅM̴̨̡̨̨̨̧̛̛̹͈̬̣͉̦͖͓̫̜͈̤̟̖͖̻̤̜͙̤̻̗͍̝̲͔̰̰̼̟̦̹̝͓̼̤̙̳͍̖̟̜̠̦̠̺͖̗̭̻̅͐̓̽͐̽̎́̂̈́͑̅̑̾̅̄̃̈́͐̀̊̉̑̃̂͂̿̂͋́̀̐̚͘͘͝ǭ̷̢̧̨̢̢̛̛̘̰̤̰̼̫̯̜̬̫̭̰̬̜̖̙̺͙̺͇̺̺͙̟͕̹͔̯̙̦͌̏̀͗͋̇͂̍̓̐̈́̂̐͛̈́̓̈́̈́̎̐̑̎͛̉̋͆̽̋̀͌͘͘͘̕̕̕͝͝n̷̟̰̼̦̟̫̭̪̝̣̺͔̖̟̦̰͗͐̉͜i̶̧̨̢̨̡̨̨͔̯̟̞͔̘̜̩͍̠̖͙̣͔̣͚͙͉̦̙̥͎̭̳͈̗̺̻̞͉̝̲̪͈̘̘͍̣͉̞̦̮̍̀͐̉̐̋͋͘͜͝ͅķ̶̡̧̡̢͉͍̝̦̫̟̺̼̦͎̭̗̼͙͚͓̗͈͉̤̯̠̟̗͇̟͇͇̣̯͖̺̖̹̩̝͍̰͈̤̝͍̙̳̤͕̖̘̳̓̑̓͆́̈́͗̎̉́̀̔͊̀̇̃̅̓̈́̓͊͌̾͂̔́́̀̈́͐̆̕͜͝ͅͅą̶̞̩̳̭̥̗̯̫͓̘̭̝̻̈́̈́̉̇̾̏̅̆͒̌̓̀́̀̈́͆̂̃̈́͑͆̃̀́̐̚͜͝ͅ   JUST MONIKA   <br> JUST MONIKA
+    </p>
+
+
+
+
+
+
+
+</div> 
+    <script src="/Historia/javascript/Hombre.js"></script>
+    <script src="/Historia/javascript/eHombre.js"></script>
+</body>
+</html>

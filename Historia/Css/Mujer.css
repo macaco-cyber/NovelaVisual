@@ -1,0 +1,151 @@
+body {
+    background-color: black;
+    }
+ p {
+background-color: white;
+font-size: 25px;
+}
+p{
+    border-style: double;
+    border-color: rgb(255, 0, 255);
+    width: 1000px;
+    height: 100px;
+    margin: auto;
+
+    background-color: rgb(226, 117, 190);
+}
+
+/* Textos invisibles */
+#texto2{
+    display:none;
+}
+#texto3{
+    display:none;
+}
+#texto4{
+    display:none;
+}
+#malo1{
+    display:none;
+}
+#malo2{
+    display:none;
+}
+#malo3{
+    display:none;
+}
+#kir1{
+    display: none;
+}
+#kir2{
+    display: none;
+}
+#kir3{
+    display: none;
+}
+#kan1{
+    display: none;
+}
+#kan2{
+    display: none;
+}
+#kan3{
+    display: none;
+}
+#kan4{
+    display: none;
+}
+
+#gen1{
+    display: none;
+}
+#gen2{
+    display: none;
+}
+#gen4{
+    display: none;
+}
+#gen5{
+    display: none;
+}
+
+#ban1{
+    display: none;
+}
+#ban2{
+    display: none;
+}
+#ban4{
+    display: none;
+}
+#ban5{
+    display: none;
+}
+
+#ban6{
+    display: none;
+}
+#configuracion{
+    display:none;
+}
+
+#play,#stop{
+	display:inline-block;
+	padding:16px;
+	border:1px solid #000;
+	border-radius
+	:5px;
+}
+iframe{display:none;}
+button{
+    background-color: rgb(235, 97, 97);
+    font-size: 20px;
+    transition:  1s;
+}
+button:hover{
+    font-size: 30px;
+    background-color: rgb(248, 248, 248);
+}
+
+.parte1 {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+/* Imagenes */
+  .fondo1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -2;
+  }
+  .image2 {
+    position: absolute;
+    top: 100px;
+    left: 430px;
+    z-index: -1;
+    display: none;
+  }
+  .fondo2{
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    display: none;
+  }
+  .image2[target=_top] {
+    position: absolute;
+    top: 100px;
+    left: 430px;
+    z-index: -1;
+    display: none;
+    filter: grayscale(100%);
+  }
+  .fondo2[target=_top]{
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    display: none;
+    filter: grayscale(100%);
+  }
