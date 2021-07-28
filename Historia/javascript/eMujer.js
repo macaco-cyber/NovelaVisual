@@ -40,7 +40,7 @@ function eDio(){
 
 function eDio2(){
     document.getElementById("emalo2").style.display="none";
-    document.getElementById("malo3").style.display="block";
+    document.getElementById("emalo3").style.display="block";
 }
 
 function eDio3(){
